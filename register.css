@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Poppins";
+}
+
+.container {
+  margin-top: 150px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.container h2 {
+  margin-bottom: 20px;
+  margin-left: 300px;
+  font-weight: bold;
+  color: #000000;
+}
+
+.container input[type=text],
+.container input[type=password],
+.container button {
+  margin-left: 300px;
+  width: 47%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.container button {
+  background-color: #ABD2EB;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.container button:hover {
+  background-color: #3E7FA8;
+  color: #FFFFFF;
+  transition: background-color 0.3s, color 0.3s;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.container label {
+  display: block;
+  margin-left: 300px;
+}
+.container label a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+}/*# sourceMappingURL=register.css.map */

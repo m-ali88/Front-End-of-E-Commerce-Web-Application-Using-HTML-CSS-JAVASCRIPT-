@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+  height: 1150px;
+}
+
+.des-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.product-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.product-image {
+  flex: 0 0 40%;
+}
+
+.product-image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-details {
+  flex: 0 0 55%;
+}
+
+.product-details h2 {
+  font-size: 42px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  color: #3E7FA8;
+}
+
+.price {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #EF7D00;
+}
+
+.ship {
+  font-size: 14px;
+  font-weight: normal;
+  color: gray;
+}
+
+.line {
+  background-color: #E0E0E0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 270px;
+  height: 1px;
+  width: 40%;
+  margin-left: 617px;
+}
+
+.sizes p {
+  margin-top: 40px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.sizes label {
+  margin-right: 20px;
+}
+
+.sizes input[type=radio] {
+  display: none;
+}
+
+.sizes label {
+  cursor: pointer;
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.sizes input[type=radio]:checked + label {
+  background-color: #ABD2EB;
+  border: #000000;
+  color: #000000;
+}
+
+label {
+  font-weight: bold;
+}
+
+.buttons {
+  margin-top: 30px;
+  margin-right: 10px;
+  color: #000000;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.buttons .add {
+  padding: 12px 110px;
+  background-color: #EF7D00;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.buttons .buy {
+  margin-top: 20px;
+  padding: 12px 120px;
+  background-color: #ABD2EB;
+  border: none;
+  border-radius: 4px;
+  color: #000000;
+  font-weight: bold;
+}
+.buttons .add:hover {
+  background-color: #707070;
+  color: #FFFFFF;
+  border-radius: 4px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+.buttons .buy:hover {
+  background-color: #3E7FA8;
+  color: #FFFFFF;
+  border-radius: 4px;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.description, .size-guide {
+  margin-top: 40px;
+  text-align: justify;
+  color: #000000;
+}
+.description h3, .size-guide h3 {
+  font-weight: bold;
+}
+
+.size-guide p {
+  margin-bottom: 10px;
+}
+
+.size-guide img {
+  margin-top: 10px;
+}/*# sourceMappingURL=description.css.map */

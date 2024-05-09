@@ -1,0 +1,158 @@
+body {
+  font-family: "Poppins";
+}
+
+.container {
+  display: flex;
+  color: #000000;
+  font-family: "Poppins";
+  padding: 50px;
+}
+
+.shipping-details h2 {
+  font-size: 24px;
+  font-weight: 550;
+  margin-bottom: 30px;
+}
+
+.order-summary {
+  height: 470px;
+  background-color: #fff;
+  border: 1px solid #E0E0E0;
+  border-radius: 12px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-left: 80px;
+}
+.order-summary h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.order-item {
+  margin-top: 12px;
+}
+.order-item h3 {
+  font-size: 16px;
+}
+.order-item p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.size {
+  font-weight: bold;
+  margin-left: 100px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+}
+
+.l-w {
+  letter-spacing: 0.7px;
+}
+
+.totals p {
+  font-weight: 500;
+  font-size: 16px;
+}
+.totals h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.quantity-input {
+  width: 40px;
+  text-align: center;
+  border: none;
+}
+
+.plus,
+.minus {
+  background-color: #FFFFFF;
+  color: #000000;
+  border: 1px solid lightgray;
+  padding: 2px 8px;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+
+.plus:hover,
+.minus:hover {
+  background-color: #E0E0E0;
+}
+
+.remove {
+  border: none;
+  background-color: #FFFFFF;
+  color: red;
+  margin-left: 120px;
+}
+
+.line {
+  background-color: #E0E0E0;
+  margin-bottom: 10px;
+  height: 1px;
+}
+
+.form-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 550;
+  margin-bottom: 5px;
+}
+
+.form-group {
+  margin-right: 20px;
+}
+
+.form-group input {
+  padding: 8px;
+  padding-right: 120px;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+#address {
+  padding-right: 230px;
+}
+
+#aptSuite {
+  padding-right: 10px;
+}
+
+.checkout-btn {
+  margin-top: 10px;
+  background-color: #000000;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  cursor: pointer;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.checkout-btn:hover {
+  background-color: #EF7D00;
+}
+
+.order-item {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.order-item img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}/*# sourceMappingURL=checkout.css.map */

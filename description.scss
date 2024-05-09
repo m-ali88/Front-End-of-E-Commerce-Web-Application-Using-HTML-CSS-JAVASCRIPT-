@@ -1,0 +1,146 @@
+@import 'colors';
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins';
+    height: 1150px;
+
+}
+
+.des-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.product-image {
+    flex: 0 0 40%;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    flex: 0 0 55%;
+}
+
+.product-details h2 {
+    font-size: 42px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    color: $blue;
+}
+
+.price {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: $orange;
+}
+.ship{
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+}
+.line {
+    background-color: $lightgray;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 270px;
+    height: 1px;
+    width: 40%;
+    margin-left: 617px;
+}
+.sizes p{
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sizes label {
+    margin-right: 20px;
+}
+
+.sizes input[type="radio"] {
+    display: none;
+}
+
+.sizes label {
+    cursor: pointer;
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.sizes input[type="radio"]:checked + label {
+    background-color: $lightblue;
+    border: $black;
+    color: $black;
+}
+
+label {
+    font-weight: bold;
+}
+
+.buttons {
+    .add {
+        padding: 12px 110px;
+        background-color: $orange;
+        color: $white;
+        border: none;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+    .buy {
+        margin-top: 20px;
+        padding: 12px 120px;
+        background-color: $lightblue;
+        border: none;
+        border-radius: 4px;
+        color: $black;
+        font-weight: bold;
+    }
+    .add:hover{
+        background-color: $darkgray;
+        color: $white;
+        border-radius: 4px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+    .buy:hover{
+            background-color: $blue;
+            color: $white;
+            border-radius: 4px;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+    margin-top: 30px;
+    margin-right: 10px;
+    color: $black;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.description, .size-guide {
+    margin-top: 40px;
+    text-align: justify;
+    color: $black;
+    h3{
+        font-weight: bold;
+    }
+}
+
+.size-guide p {
+    margin-bottom: 10px;
+}
+.size-guide img{
+    margin-top: 10px;
+}
+

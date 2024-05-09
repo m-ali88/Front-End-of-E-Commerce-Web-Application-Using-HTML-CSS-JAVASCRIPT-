@@ -1,0 +1,65 @@
+.catalogue {
+  font-style: "Poppins";
+  width: 100%;
+  height: 800px;
+}
+.catalogue .na-container {
+  padding: 0px;
+  margin-top: 50px;
+}
+.catalogue a {
+  text-decoration: none;
+  color: #000000;
+}
+.catalogue .col-md-4 {
+  margin-bottom: 5px;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.clothing-item {
+  text-align: center;
+  background-color: #FFFFFF;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.clothing-item h4 {
+  font-weight: 800;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.clothing-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.clothing-item img {
+  width: 250px;
+  height: 220px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.rating {
+  color: #FFCC00;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.price {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.row {
+  margin-bottom: 30px;
+}/*# sourceMappingURL=catalogue.css.map */
